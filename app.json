@@ -1,8 +1,18 @@
 {
   "pages":[
+    "pages/index/index",
+    "pages/changeAccount/changeAccount",
+    "pages/password/password",
+    "pages/accountAssignment/accountAssignment",
+    "pages/businessManagement/businessManagement",
+    "pages/myCard/myCard",
+    "pages/subordinateCustomer/subordinateCustomer",
+    "pages/visitCustomer/visitCustomer",
+    "pages/dealCustomer/dealCustomer",
     "pages/addCustomer/addCustomer",
-    "pages/customerList/ customerList",
-    "pages/index/index"
+    "pages/customerList/ customerList"
+    
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

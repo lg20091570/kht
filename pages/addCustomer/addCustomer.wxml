@@ -17,12 +17,19 @@
       <text class='font_34 color_0'>电话</text>
       <input placeholder-class='color_c' placeholder='请输入电话' class='flex_1 font_34 pad_l30 ' />
     </view>
-    <view class='atherText w_640 bor_bot auto pad_t20 pad_b20'>
-      <text class='font_34 '>其他信息</text>
+    <!-- <view class='atherText w_640 bor_bot auto pad_t20 pad_b20'>
+      
       <textarea maxlength="{{noteMaxLen}}" bindinput="bindWordLimit" 
        placeholder-class='color_c' placeholder='请输入联系人姓名' class='flex_1 font_34 pad_l20 ' ></textarea>
        <text class="wordLimit ff-hv">{{currentNoteLen|0}}/{{noteMaxLen}}个字</text> 
-    </view>
+    </view> -->
+    <view class='atherText w_640 bor_bot auto pad_t20 pad_b20'>  
+      <text class='font_34 '>其他信息</text>
+      <textarea class="areas flex_1 font_34" placeholder-class='color_c font_34' placeholder='请输入其他信息'
+       minlength="{{min}}" maxlength="{{max}}" bindinput="inputs">   
+          <view class="currentWordNumber"><text class='color_c'>{{currentWordNumber|0}}/</text>{{max}}</view>  
+      </textarea>   
+    </view>  
 
 
     

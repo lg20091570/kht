@@ -1,3 +1,19 @@
 /* pages/addCustomer/addCustomer.wxss */
 .indexBox{margin: 30rpx auto 30rpx auto}
-.atherText{display: flex;align-items: flex-start;justify-content: flex-start;}
+.atherText{display: flex;align-items: flex-start;justify-content: flex-start;} 
+.areas{  
+  height:135rpx;  
+   font-size: 34rpx;  
+  text-indent: 28rpx;  
+  margin: 0 auto;  
+  overflow: hidden;     
+  position: relative;  
+ 
+}  
+.currentWordNumber{  
+  font-size: 22rpx;  
+  color: gray;  
+  position: absolute;  
+  left:416rpx;  
+  bottom: 0rpx;  
+}    
