@@ -1,0 +1,21 @@
+<!--pages/ customerList/ customerList.wxml-->
+<scroll-view scroll-y class='graybg'>
+<view class='w_700 auto'>
+
+  <view class='flex_c_c searchBox'>
+    <input class='searchInput flex_1' placeholder='搜索...'/>
+    <!-- <view class='searchBtn' style="background: url(../../image/search_ico.png) no-repeat center / 40rpx 40rpx;"></view> -->
+  </view>
+
+  <view class='w_640 pad30 whitebg radius_10 top_20'>
+    <view class='font_32 color_3e line68'>昆明南众软件开发有限公司 </view>
+    <view class='font_32 color_3e line68'>云牛在线APP开发</view>
+    <view class='font_32 color_3e line68 pad_b15'>杨超 <text class='left_50'>(12345678910)</text></view>
+    <view class='bor_top clamp_4 justify color_9 font_26 pad_t20'>
+      客户是中国古代户籍制度中的一类户口﹐与主户相对而言 泛指非土著的住户。它不是一个统一的阶级或阶层。
+    </view>
+  </view>
+
+</view>
+
+</scroll-view>

@@ -1,0 +1,31 @@
+<!--pages/addCustomer/addCustomer.wxml-->
+<scroll-view scroll-y class='graybg'>
+  <view class='w_700 whitebg indexBox radius_10'>
+    <view class='flex_c_c w_640 bor_bot auto pad_t20 pad_b20'>
+      <text class='font_34 color_0'>客户名称</text>
+      <input placeholder-class='color_c' placeholder='请输入客户名称' class='flex_1 font_34 pad_l30 ' />
+    </view>
+    <view class='flex_c_c w_640 bor_bot auto pad_t20 pad_b20'>
+      <text class='font_34 color_0'>项目</text>
+      <input placeholder-class='color_c' placeholder='请输入项目名称' class='flex_1 font_34 pad_l30 ' />
+    </view>
+    <view class='flex_c_c w_640 bor_bot auto pad_t20 pad_b20'>
+      <text class='font_34 color_0'>联系人</text>
+      <input placeholder-class='color_c' placeholder='请输入联系人姓名' class='flex_1 font_34 pad_l30 ' />
+    </view>
+    <view class='flex_c_c w_640 bor_bot auto pad_t20 pad_b20'>
+      <text class='font_34 color_0'>电话</text>
+      <input placeholder-class='color_c' placeholder='请输入电话' class='flex_1 font_34 pad_l30 ' />
+    </view>
+    <view class='atherText w_640 bor_bot auto pad_t20 pad_b20'>
+      <text class='font_34 '>其他信息</text>
+      <textarea maxlength="{{noteMaxLen}}" bindinput="bindWordLimit" 
+       placeholder-class='color_c' placeholder='请输入联系人姓名' class='flex_1 font_34 pad_l20 ' ></textarea>
+       <text class="wordLimit ff-hv">{{currentNoteLen|0}}/{{noteMaxLen}}个字</text> 
+    </view>
+
+
+    
+  </view>
+
+</scroll-view>

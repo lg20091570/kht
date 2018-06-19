@@ -1,11 +1,13 @@
 {
   "pages":[
+    "pages/addCustomer/addCustomer",
+    "pages/customerList/ customerList",
     "pages/index/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#3e4f5c",
     "navigationBarTitleText": "南众客户报备",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"#fff"
   }
 }
