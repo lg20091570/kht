@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/addCustomer/addCustomer",
     "pages/index/index",
     "pages/changeAccount/changeAccount",
     "pages/password/password",
@@ -9,7 +10,7 @@
     "pages/subordinateCustomer/subordinateCustomer",
     "pages/visitCustomer/visitCustomer",
     "pages/dealCustomer/dealCustomer",
-    "pages/addCustomer/addCustomer",
+    
     "pages/customerList/ customerList"
     
     

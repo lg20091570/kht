@@ -85,6 +85,7 @@
 .color_b5{color:#b5b5b5}
 .color_98{color: #989898;}
 .color_c{color: #cccccc;}
+.colorF_14{color: #1469a9;font-size: 34rpx;}
 
 
 /* bgColor */

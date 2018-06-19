@@ -30,9 +30,8 @@
           <view class="currentWordNumber"><text class='color_c'>{{currentWordNumber|0}}/</text>{{max}}</view>  
       </textarea>   
     </view>  
-
-
-    
   </view>
+
+  <view class='w_700 radius_10 whitebg auto colorF_14 pad_t20 pad_b20 center'>完成</view>
 
 </scroll-view>

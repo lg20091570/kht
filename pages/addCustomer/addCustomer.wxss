@@ -1,5 +1,5 @@
 /* pages/addCustomer/addCustomer.wxss */
-.indexBox{margin: 30rpx auto 30rpx auto}
+.indexBox{margin: 30rpx auto 50rpx auto}
 .atherText{display: flex;align-items: flex-start;justify-content: flex-start;} 
 .areas{  
   height:135rpx;  
