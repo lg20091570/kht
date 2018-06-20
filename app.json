@@ -1,7 +1,11 @@
 {
   "pages":[
-    "pages/addCustomer/addCustomer",
+    "pages/accountAllocation/accountAllocation",
+    "pages/selDepartment/selDepartment",
     "pages/index/index",
+    
+    "pages/addCustomer/addCustomer",
+   
     "pages/changeAccount/changeAccount",
     "pages/password/password",
     "pages/accountAssignment/accountAssignment",

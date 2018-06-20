@@ -1,0 +1,3 @@
+/* pages/accountAllocation/accountAllocation.wxss */
+.accountbox{margin:30rpx 20rpx 28rpx 28rpx;}
+.boxdetail{width: 695rpx;height: 360rpx;background: #fff;border-radius: 10rpx;}
