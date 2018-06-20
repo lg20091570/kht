@@ -1,9 +1,10 @@
 /**app.wxss**/
 .v_m{ vertical-align: middle }
 .bor_r{border-radius: 10rpx;}
+
+.locationP{position: relative;}
 /* 层级 */
 .z_99{z-index: 99;}
-
 /* bold */
 .bold{font-weight: bold;}
 /* 行高 */
@@ -20,6 +21,7 @@
 .pos_re{ position: relative; }
 .fl{ float: left; }
 .fr{ float: right; }
+.overflow{overflow: hidden;}
 .clearfix{ clear: both; }
 .clearfix:after,.clearfix:before{ content:""; display: table; clear: both; }
 .nobreak{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -85,6 +87,7 @@
 .color_b5{color:#b5b5b5}
 .color_98{color: #989898;}
 .color_c{color: #cccccc;}
+.color_14{color: #1469a9;}
 .colorF_14{color: #1469a9;font-size: 34rpx;}
 .Color_aa8{Color: #146aa8;}
 
@@ -163,6 +166,7 @@
 .right_30{margin-right: 30rpx;}
 .right_10{margin-right: 10rpx;}
 .top_30{ margin-top: 30rpx; }
+.top_60{ margin-top: 60rpx; }
 .top_20{ margin-top: 20rpx; }
 .top_5{ margin-top: 5rpx; }
 .block{ display: block; }
@@ -181,6 +185,7 @@
 .bo_b{ border-bottom: 1rpx solid #e7e7e7; }
 .bo_t{ border-top: 1rpx solid #e7e7e7; }
 .bo_l{border-left: 1rpx solid #e7e7e7;}
+.bo_right{border-right: 1rpx solid #cccccc;}
 .flex_c_bet{ display: flex; align-items: center; justify-content: space-between;  flex-direction: row; }
 .flex_c_c{ display: flex; justify-content: center; align-items: center; }
 .flex_t_l{ display: flex; }
@@ -216,7 +221,7 @@
 .bor_top{border-top: 1rpx solid #ebebeb;}
 .bor_bot{border-bottom: 1rpx solid #e6e6e6;}
 .height{height: 100%}
-
+.luoborder{border: 1px solid #1469a9;color: #1469a9; font-size: 26rpx;width: 104rpx;height: 45rpx;align-items: center;justify-content: center;display: flex;border-radius: 10rpx; }
 /*宽高 */
 /* 宽 */
 
@@ -240,6 +245,7 @@
 .w_50{width: 50rpx;}
 .w_400{width: 400rpx;}
 .w_670{width: 670rpx;}
+.w_30{width: 30rpx;}
 .w_22{width: 22rpx;}
 .w_20{width: 20rpx;}
 /* 高 */
@@ -262,7 +268,9 @@
 .h_28{height: 28rpx;}
 /* 宽高 END */
 
-
+/* 下属客户边角背景 */
+.blueBg{background: #1469a9;}
+.stategrayBg{background: #e6e6e6;}
 
 
 

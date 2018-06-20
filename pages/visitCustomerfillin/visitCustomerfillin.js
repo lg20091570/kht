@@ -7,8 +7,8 @@ Page({
   data: {
     min: 5,//最少字数  
     max: 80, //最多字数 
-    array: ['当面拜访', '电话拜访', '聊天软件拜访', '其他拜访'],
-    deal: ['已成交', '未成交']
+    array: ['当面拜访', '电话拜访', '聊天软件拜访', '其他拜访'] ,
+    deal:['已成交','未成交']
   },
   //字数限制    
   inputs: function (e) {
@@ -50,55 +50,55 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+  
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+  
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+  
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-
+  
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+  
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+  
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+  
   },
 
   /**
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+  
   }
 })

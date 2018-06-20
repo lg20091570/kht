@@ -1,0 +1,9 @@
+<!--pages/chioceCustomer/chioceCustomer.wxml-->
+<scroll-view scroll-y class='graybg'>
+  <view class='w_700 auto'>
+    <view  class='whitebg top_30 bottom_30 radius_10 pad_l30 pad_r30 pad_t20 pad_b20'>
+      <view class='font_34 color_0'>昆明南众软件</view>
+      <view class=' pad_t20 font_24 color_9'>杨超 18388104674</view>
+    </view>
+  </view>
+</scroll-view>
