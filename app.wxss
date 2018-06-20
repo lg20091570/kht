@@ -86,6 +86,7 @@
 .color_98{color: #989898;}
 .color_c{color: #cccccc;}
 .colorF_14{color: #1469a9;font-size: 34rpx;}
+.Color_aa8{Color: #146aa8;}
 
 
 /* bgColor */
@@ -260,6 +261,27 @@
 .h_38{height: 38rpx;}
 .h_28{height: 28rpx;}
 /* 宽高 END */
+
+
+
+
+
+
+
+
+
+.right{text-align: right;}
+
+
+
+
+
+.left{text-align: left;}
+
+
+
+
+.lh_98{line-height: 98rpx;}
 
 
 

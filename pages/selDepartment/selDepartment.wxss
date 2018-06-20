@@ -1,0 +1,17 @@
+/* pages/selDepartment/selDepartment.wxss */
+.selDeparbox{background: #3e4f5c;width:750rpx;padding-top: 30rpx;}
+.selDepar{margin-left:30rpx;
+          margin-right:30rpx;
+          width: 630rpx;
+          height: 98rpx;
+          border-radius: 10rpx;
+          border: 1rpx solid #3e4f5c;
+          background: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-left: 30rpx;
+          padding-right: 20rpx;
+          }
+
+
