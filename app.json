@@ -1,5 +1,9 @@
 {
   "pages":[
+    "pages/retrievePassword/retrievePassword",
+    "pages/modifyPassword/modifyPassword",
+    "pages/accountAssignment/accountAssignment",
+    "pages/addCustomer/addCustomer",
     "pages/subordinateCustomer/subordinateCustomer",
     "pages/accountAllocation/accountAllocation",
     "pages/visitCustomerstate/visitCustomerstate",
@@ -12,10 +16,10 @@
 
     "pages/addCustomerfillin/addCustomerfillin",
     "pages/chioceCustomer/chioceCustomer",
-    "pages/addCustomer/addCustomer",
+ 
     "pages/changeAccount/changeAccount",
-    "pages/password/password",
-    "pages/accountAssignment/accountAssignment",
+ 
+
     "pages/businessManagement/businessManagement",
     "pages/myCard/myCard",
     "pages/visitCustomer/visitCustomer",

@@ -1,4 +1,4 @@
-// pages/password/password.js
+// pages/retrievePassword/retrievePassword.js
 Page({
 
   /**

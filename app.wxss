@@ -2,6 +2,7 @@
 .v_m{ vertical-align: middle }
 .bor_r{border-radius: 10rpx;}
 
+
 .locationP{position: relative;}
 /* 层级 */
 .z_99{z-index: 99;}
@@ -9,6 +10,7 @@
 .bold{font-weight: bold;}
 /* 行高 */
 .lin56{line-height: 56rpx;}
+.lin50{line-height: 50rpx;}
 .lin48{line-height: 48rpx;}
 .line42{line-height: 42rpx;}
 .line103{line-height: 103rpx;}
@@ -272,6 +274,7 @@
 /* 下属客户边角背景 */
 .blueBg{background: #1469a9;}
 .stategrayBg{background: #e6e6e6;}
+.bg146{background:#146aa8}
 
 
 
