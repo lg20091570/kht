@@ -1,2 +1,61 @@
 <!--pages/subordinateCustomer/subordinateCustomer.wxml-->
-<text>pages/subordinateCustomer/subordinateCustomer.wxml</text>
+<scroll-view scroll-y class='graybg'>
+  <view class='w_700 auto'>
+    <view class='pad_b15 pad_t15 top_20 whitebg radius_10 flex_c_c'>
+      <view class='flex_1 center bo_right font_28 color_3e flex_c_c shopPricedownH' data-index='0' bindtap="onChangeShowState">{{filter1}}</view>
+      <view class='flex_1 center color_3e font_28 flex_c_c shopPricedownH' data-index='1' bindtap="onChangeShowState">{{filter2}}</view>
+    </view>
+    <view class='w_640 pad30 whitebg radius_10 top_20 locationP'>
+      <view class='font_32 color_3e line68'>昆明南众软件开发有限公司 </view>
+      <view class='font_32 color_3e line68'>云牛在线APP开发</view>
+      <view class='font_32 color_3e line68 pad_b15 flex_c_bet'>
+        <view>杨超 <text class='left_50'>(12345678910)</text></view>
+         <view class='luoborder'>罗胖子</view> 
+      </view>
+       <view class='bor_top clamp_4 justify color_9 font_26 pad_t20'>
+        客户是中国古代户籍制度中的一类户口﹐与主户相对而言 泛指非土著的住户。它不是一个统一的阶级或阶层。
+      </view> 
+      <view class='state blueBg white'>成交</view> 
+    </view>
+
+    <view class='w_640 pad30 whitebg radius_10 top_20 locationP'>
+      <view class='font_32 color_3e line68'>昆明南众软件开发有限公司 </view>
+      <view class='font_32 color_3e line68'>云牛在线APP开发</view>
+      <view class='font_32 color_3e line68 pad_b15 flex_c_bet'>
+        <view>杨超 <text class='left_50'>(12345678910)</text></view>
+         <view class='luoborder'>罗胖子</view> 
+      </view>
+       <view class='bor_top clamp_4 justify color_9 font_26 pad_t20'>
+        客户是中国古代户籍制度中的一类户口﹐与主户相对而言 泛指非土著的住户。它不是一个统一的阶级或阶层。
+      </view> 
+      <view class='state stategrayBg color_9'>未成交</view> 
+    </view>
+  </view>
+</scroll-view>
+<!-- 弹层背景 -->
+ <view class='Mask_bg'  wx:if="{{filterShow}}" bindtap="onChangeShowState" ></view>
+ <!-- 弹层背景End -->
+
+  <!-- 弹层 -->
+   <view class='filterBox ' wx:if="{{filterShow}}" >
+    <view class='w_700 pad_l30 pad_r30 bor_bot pad_t20 pad_b20 flex_c_bet'>
+      <text class='font_28 color_3e' wx:if='{{tabIndex=="0"}}'>{{filterList.title}}</text>
+      <text class='font_28 color_3e' wx:else>{{filterScend.title}}</text>
+      <text class='font_28 color_3e' bindtap="closeFilter">取消</text>
+    </view>
+    <view class='' wx:if='{{tabIndex=="0"}}'>
+      <block wx:for='{{filterList.list}}' wx:key='{{index}}' >
+        <view class='w_700 auto pad_t20  pad_b20 bor_bot' bindtap='choise' data-index='{{index}}'>{{item}}</view>
+      </block>
+    </view>
+
+    <view class='' wx:else>
+      <block wx:for='{{filterScend.list}}' wx:key='{{index}}' >
+        <view class='w_700 auto pad_t20  pad_b20 bor_bot' bindtap='choise' data-index='{{index}}'>{{item}}</view>
+      </block>
+    </view>
+  </view> 
+
+  <!-- 弹层 End --> 
+
+

@@ -1,4 +1,4 @@
-<!--pages/visitCustomerfillin/visitCustomerfillin.wxml-->
+<!--pages/visitCustomerstate/visitCustomerstate.wxml-->
 <scroll-view scroll-y class='graybg'>
   <view class='w_700 auto'>
     <view class='whitebg top_30 radius_10 pad_l30 pad_r30  pad_b45'>

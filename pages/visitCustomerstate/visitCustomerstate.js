@@ -1,4 +1,4 @@
-// pages/visitCustomerfillin/visitCustomerfillin.js
+// pages/visitCustomerstate/visitCustomerstate.js
 Page({
 
   /**

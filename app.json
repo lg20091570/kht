@@ -1,20 +1,25 @@
 {
   "pages":[
+    "pages/subordinateCustomer/subordinateCustomer",
     "pages/accountAllocation/accountAllocation",
+    "pages/visitCustomerstate/visitCustomerstate",
+    "pages/visitCustomerfillin/visitCustomerfillin",
+  
     "pages/selDepartment/selDepartment",
-    "pages/index/index",
     
-    "pages/addCustomer/addCustomer",
    
+    "pages/index/index",
+
+    "pages/addCustomerfillin/addCustomerfillin",
+    "pages/chioceCustomer/chioceCustomer",
+    "pages/addCustomer/addCustomer",
     "pages/changeAccount/changeAccount",
     "pages/password/password",
     "pages/accountAssignment/accountAssignment",
     "pages/businessManagement/businessManagement",
     "pages/myCard/myCard",
-    "pages/subordinateCustomer/subordinateCustomer",
     "pages/visitCustomer/visitCustomer",
     "pages/dealCustomer/dealCustomer",
-    
     "pages/customerList/ customerList"
     
     

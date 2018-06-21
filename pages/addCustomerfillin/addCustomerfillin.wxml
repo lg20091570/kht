@@ -1,0 +1,28 @@
+<!--pages/addCustomerfillin/addCustomerfillin.wxml-->
+<scroll-view scroll-y class='graybg'>
+  <view class='w_700 auto'>
+    <view class='whitebg top_30 radius_10 pad_l30 pad_r30 pad_t30 pad_b45'>
+      <view class='bor_bot pad_b35'>
+        <view class='font_26 color_9'>客户名称</view>
+        <view class='font_34 color_0 pad_t20'>昆明南众软件</view>
+      </view>
+      <view class='bor_bot pad_t35 pad_b35'>
+        <view class='font_26 color_9'>项目</view>
+        <view class='font_34 color_0 pad_t20'>云牛在线APP开发</view>
+      </view>
+      <view class='bor_bot pad_t35 pad_b35'>
+        <view class='font_26 color_9'>联系人</view>
+        <view class='font_34 color_0 pad_t20'>杨超</view>
+      </view>
+      <view class='bor_bot pad_t35 pad_b35'>
+        <view class='font_26 color_9'>电话</view>
+        <view class='font_34 color_0 pad_t20'>18388104674</view>
+      </view>
+      <view class='bor_bot pad_t35 pad_b35'>
+        <view class='font_26 color_9'>其他信息</view>
+        <view class='font_34 color_0 justify pad_t20'>客户信息是指客户喜好、客户细分、客户需 求、客户联系方式等关于客户的基本资料。</view>
+      </view>
+    </view>
+  </view>
+  <view class='w_700 radius_10 whitebg marginBox colorF_14 pad_t20 pad_b20 center'>完成</view>
+</scroll-view>

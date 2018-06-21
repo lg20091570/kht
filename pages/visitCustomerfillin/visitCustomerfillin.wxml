@@ -1,0 +1,32 @@
+<!--pages/visitCustomerfillin/visitCustomerfillin.wxml-->
+<scroll-view scroll-y class='graybg'>
+  <view class='w_700 auto'>
+    <view class='whitebg top_30 radius_10 pad_l30 pad_r30 pad_t30 pad_b45'>
+      <view class='bor_bot pad_b35'>
+        <view class='font_26 color_9 flex_c_bet'>
+          <text>选择客户</text><image class='w_35 h_35' src='../../image/maileImg.png' />
+        </view>
+        <view class='font_34 color_14 pad_t20'>昆明南众软件  （杨超）</view>
+      </view>
+      <view class='bor_bot pad_t35 pad_b35'>
+        <view class='font_26 color_9'>拜访类型</view>
+        <view class='font_34 color_0 pad_t20 flex_c_bet'>
+          <text>当面拜访</text>
+          <image class='w_20 h_30' src='../../image/rightJtou.png'/>
+        </view>
+      </view>
+      <view class='bor_bot pad_t35 pad_b35'>
+        <view class='font_26 color_9'>成交状态</view>
+        <view class='font_34 color_14 pad_t20 flex_c_bet'>
+          <text class='font_34 color_14'>已成交</text>
+          <image class='w_20 h_30' src='../../image/rightJtou.png'/>
+        </view>
+      </view>
+      <view class='bor_bot pad_t35 pad_b35'>
+        <view class='font_26 color_9'>拜访信息</view>
+        <view class='font_34 color_0 justify pad_t20'>客户信息是指客户喜好、客户细分、客户需 求、客户联系方式等关于客户的基本资料。</view>
+      </view>
+    </view>
+  </view>
+  <view class='w_700 radius_10 whitebg marginBox colorF_14 pad_t20 pad_b20 center'>完成</view>
+</scroll-view>
