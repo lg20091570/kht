@@ -1,12 +1,15 @@
 {
   "pages":[
     "pages/subordinateCustomer/subordinateCustomer",
-    "pages/selDepartment/selDepartment",
-  
     "pages/accountAllocation/accountAllocation",
-    "pages/selDepartment/selDepartment",
-    "pages/index/index",
+    "pages/visitCustomerstate/visitCustomerstate",
     "pages/visitCustomerfillin/visitCustomerfillin",
+  
+    "pages/selDepartment/selDepartment",
+    
+   
+    "pages/index/index",
+
     "pages/addCustomerfillin/addCustomerfillin",
     "pages/chioceCustomer/chioceCustomer",
     "pages/addCustomer/addCustomer",

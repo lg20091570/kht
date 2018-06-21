@@ -1,0 +1,39 @@
+/* pages/visitCustomerstate/visitCustomerstate.wxss */
+.marginBox{margin: 50rpx auto 0 auto}
+.atherText{display: flex;align-items: flex-start;justify-content: flex-start;} 
+.flexStartBox{display: flex;align-content: center;justify-content: flex-start;flex-direction: column;}
+.flexStart{display: flex;align-content: center;justify-content: flex-start;}
+.areas{  
+  height:135rpx;  
+  font-size: 34rpx;  
+  margin: 0 auto;  
+  overflow: hidden;     
+  position: relative;  
+width: 640rpx;
+white-space: normal;
+word-wrap: break-word;
+word-break: break-all;
+}  
+.currentWordNumber{  
+  font-size: 22rpx;  
+  color: gray;  
+  position: absolute;  
+  right: 0;
+  bottom: 0rpx;  
+}
+
+
+.section__title {
+  margin: 20rpx;
+}
+
+.section {
+  width: 100%;
+  font-size: 35rpx;
+  margin: 10rpx;
+  color: #6BD44E;
+}
+
+.picker {
+  color: #000;
+}
