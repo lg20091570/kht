@@ -19,4 +19,8 @@
     </view>
   </view>
 
+  <modal hidden="{{hidden}}" title="这里是title" confirm-text="自定义确定按钮" cancel-text="自定义取消按钮" bindcancel="cancel" bindconfirm="confirm" no-cancel="{{nocancel}}">
+    <input placeholder='情书他'/>
+</modal>
+
 </scroll-view>

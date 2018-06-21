@@ -1,95 +1,45 @@
 {
   "pages":[
-      "pages/addingDepartment/addingDepartment",
-      "pages/businessManagement/businessManagement",
-      "pages/subordinateCustomer/subordinateCustomer",
-      "pages/modifyPassword/modifyPassword",
-      "pages/retrievePassword/retrievePassword",
-      "pages/enterpriseRevision/enterpriseRevision",
-      "pages/addCustomerfillin/addCustomerfillin",
+    
+    "pages/addingDepartment/addingDepartment",
+    "pages/subordinateCustomer/subordinateCustomer",
+    "pages/businessManagement/businessManagement",
+    "pages/modifyPassword/modifyPassword",
+    "pages/retrievePassword/retrievePassword",
+    "pages/enterpriseRevision/enterpriseRevision",
+    "pages/addCustomerfillin/addCustomerfillin",
 
-      "pages/enterpriseSetting/enterpriseSetting",
-      "pages/index/index",
+    "pages/enterpriseSetting/enterpriseSetting",
 
-
-
-      "pages/branchDoor/branchDoor",
-      "pages/accountAllocation/accountAllocation",
-      "pages/visitCustomerstate/visitCustomerstate",
-
-
-
-
-      "pages/addCustomer/addCustomer",
-      "pages/accountAssignment/accountAssignment",
-
-
-
-
-
-
-
-
-
+    "pages/addCustomer/addCustomer",
 
    
     "pages/login/login",
-    "pages/retrievePassword/retrievePassword",
     "pages/register/register",
     "pages/selDepartment/selDepartment",
-    "pages/index/index",
-    "pages/password/password",
     "pages/visitRecord/visitRecord",
-
-    "pages/dealCustomer/dealCustomer",
-
-    "pages/subordinateCustomer/subordinateCustomer",
     "pages/branchDoor/branchDoor",
     "pages/accountAllocation/accountAllocation",
     "pages/visitCustomerstate/visitCustomerstate",
 
-
-
-    "pages/enterpriseRevision/enterpriseRevision",
-    "pages/addCustomer/addCustomer",
     "pages/accountAssignment/accountAssignment",
 
-    "pages/subordinateCustomer/subordinateCustomer",
-
-
-
-    "pages/modifyPassword/modifyPassword",
-
-
-    "pages/retrievePassword/retrievePassword",
-
-
-
-
+  
 
 
     "pages/visitCustomerfillin/visitCustomerfillin",
-
-    "pages/selDepartment/selDepartment",
-
-
-
 
 
     "pages/chioceCustomer/chioceCustomer",
 
     "pages/changeAccount/changeAccount",
 
-    "pages/accountAssignment/accountAssignment",
 
-
-    "pages/businessManagement/businessManagement",
 
     "pages/myCard/myCard",
     "pages/visitCustomer/visitCustomer",
     "pages/dealCustomer/dealCustomer",
     "pages/customerList/ customerList"
-    
     
   ],
   "window":{
