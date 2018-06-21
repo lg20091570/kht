@@ -1,0 +1,27 @@
+<!--pages/register/register.wxml-->
+<scroll-view scroll-y class='graybg'>
+  <view class='w_700 auto'>
+    <view class='whitebg radius_10 pad_l30 pad_r30 pad_t40'>
+      <view class='flex_c_c'>
+        <image class='w_270 h_250' src='../../image/logioImg.png' />
+      </view>
+      <view class='flex_c_s bor_bot pad_t40 pad_b20'>
+        <text class='font_32 color_14 bold'>账号</text>
+        <input placeholder='请输入账号' placeholder-class='pleasorder' class='flex_1 color_0 font_32 left_30 '/>
+      </view>
+      <view class='flex_c_s bor_bot pad_t20 pad_b20'>
+        <text class='font_32 color_14 bold'>密码</text>
+        <input placeholder='请输入密码' placeholder-class='pleasorder' class='flex_1 color_0 font_32 left_30 '/>
+        <view class='btnBg radius_10 pad_l30 pad_r30 pad_t10 pad_b10 font_28 white'>获取验证码</view>
+      </view>
+      <view class='flex_c_s bor_bot pad_t20 pad_b20'>
+        <text class='font_32 color_14 bold'>设置密码</text>
+        <input placeholder='请输入密码' placeholder-class='pleasorder' class='flex_1 color_0 font_32 left_30 '/>
+      </view>
+    </view>
+  </view>
+
+   <view class='w_700 radius_10 whitebg positionBox font_32 color_14 bold pad_t20 pad_b20 center'>注册</view>
+
+   <view class='flex_c_c font_32 white top_40'>已有账号，去<navigator class='color_14' url='/pages/login/login'>登录</navigator></view>
+</scroll-view>

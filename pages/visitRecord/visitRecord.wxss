@@ -1,0 +1,19 @@
+/* pages/visitRecord/visitRecord.wxss */
+.arounde{margin: 30rpx auto 150rpx auto}
+.possibleBox{position: fixed;bottom:20rpx; left:26rpx;}
+
+/* 导航向下角标 */
+.shopPricedownH:after {
+    content: "";
+    width:0;
+    height: 0;
+    border-top:16rpx solid transparent;
+    border-bottom: 16rpx solid transparent;
+    border-right:16rpx solid #f7f7f7;
+
+  }
+  .positionWbox{
+    position: absolute;
+    left: -14rpx;
+    top:30rpx;
+  }

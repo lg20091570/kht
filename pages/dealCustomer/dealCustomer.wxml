@@ -1,2 +1,38 @@
 <!--pages/dealCustomer/dealCustomer.wxml-->
-<text>pages/dealCustomer/dealCustomer.wxml</text>
+<!--pages/subordinateCustomer/subordinateCustomer.wxml-->
+<scroll-view scroll-y class='graybg'>
+  <view class='w_700 auto'>
+    <view class='w_640 pad30 whitebg radius_10 top_20 locationP'>
+      <view class='font_32 color_3e line68'>昆明南众软件开发有限公司 </view>
+      <view class='font_32 color_3e line68'>云牛在线APP开发</view>
+      <view class='font_32 color_3e line68 pad_b15 flex_c_bet'>
+        <view  class='flex_1'>杨超 <text class='left_10'>(12345678910)</text></view>
+         <view class='flex_1 flex_c_r'>
+          <text class='font_20  color_b2 '>2017-10-10聊天软件拜访</text>
+          <text  class='color_14 font_20 bold left_20'>已成交</text>
+         </view> 
+      </view>
+       <view class='bor_top clamp_4 justify color_9 font_26 pad_t20'>
+        客户是中国古代户籍制度中的一类户口﹐与主户相对而言 泛指非土著的住户。它不是一个统一的阶级或阶层。
+      </view> 
+    
+    </view>
+
+    <view class='w_640 pad30 whitebg radius_10 top_20 locationP'>
+      <view class='font_32 color_3e  line68'>昆明南众软件开发有限公司 </view>
+      <view class='font_32 color_3e line68'>云牛在线APP开发</view>
+      <view class='font_32 color_3e line68 pad_b15  flex_c_bet'>
+        <view class='flex_1'>杨超 <text class='left_10'>(12345678910)</text></view>
+        <view class='flex_1 flex_c_r'>
+          <text class='font_22 color_b2'>2017-10-10当面拜访</text>
+          <text class='color_14 font_22 bold left_20'>已成交</text>
+         </view> 
+      </view>
+       <view class='bor_top clamp_4 justify color_9 font_26 pad_t20'>
+        客户是中国古代户籍制度中的一类户口﹐与主户相对而言 泛指非土著的住户。它不是一个统一的阶级或阶层。
+      </view> 
+    
+    </view>
+  </view>
+</scroll-view>
+
