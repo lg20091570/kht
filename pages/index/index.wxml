@@ -41,7 +41,7 @@
           <image class='w_84 h_84' src='../../image/indexTopIco.png' />
           <text class='font_26 color_3e pad_t30'>添加客户</text>
         </navigator>
-        <navigator url='/pages/visitCustomer/visitCustomer' class='flex_1 flex_c_c_col bor_right bor_bot pad40'>
+        <navigator url='/pages/visitRecord/visitRecord' class='flex_1 flex_c_c_col bor_right bor_bot pad40'>
           <image class='w_84 h_84' src='../../image/indexTopIco2.png' />
           <text class='font_26 color_3e pad_t30'>客户拜访</text>
         </navigator>

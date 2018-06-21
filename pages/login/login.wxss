@@ -1,0 +1,6 @@
+/* pages/login/login.wxss */
+.pleasorder{color: #e5e5e5;}
+radio {  
+  transform:scale(0.8);  
+} 
+.positionBox{margin: 50rpx auto 0 auto}

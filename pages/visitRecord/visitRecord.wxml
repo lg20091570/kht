@@ -1,0 +1,28 @@
+<!--pages/visitRecord/visitRecord.wxml-->
+<scroll-view scroll-y class='graybg'>
+  <view class='w_640 arounde radius_10 whitebg pad_t30 pad_b50 pad_l30 pad_r30'>
+    <view class='bottom_20'>
+      <view class='font_32 color_3e'>昆明南众软件开发有限公司</view>
+      <view class='font_32 color_3e pad_t20 pad_b20'>云牛在线APP开发</view>
+      <view class='font_32 color_3e'>杨超（18313795201）</view>
+    </view>
+
+    <view class='h_700 overflowScor'>
+      <view class='w_580 bottom_20 radius_10 lightgrey pad_t30 pad_b40 pad_l30 pad_r30 pos_re' wx:for="arr in 3">
+        <view class='shopPricedownH positionWbox flex_c_c'></view>
+          <view class='flex_c_bet'>
+            <text class='font_22 color_b2'>2017-10-10</text>
+            <view>
+              <text class='font_22 color_b2'>当面拜访</text>
+              <text class='font_22 color_14 bold left_10'>已成交</text>
+            </view>
+          </view>
+          <view class='font_26 color_6 justify pad_t20'>客户信息是指客户喜好、客户细分、客户需求、客户联系方式等关于客户的基本资料。</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+<!-- 添加拜访记录 -->
+  <navigator url='/pages/visitCustomer/visitCustomer' class='w_640 flex_c_c  font_34 color_14 possibleBox radius_10 whitebg pad_t30 pad_b30 pad_l30 pad_r30'>
+   添加拜访记录
+  </navigator>

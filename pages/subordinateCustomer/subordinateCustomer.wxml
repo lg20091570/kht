@@ -1,10 +1,11 @@
 <!--pages/subordinateCustomer/subordinateCustomer.wxml-->
 <scroll-view scroll-y class='graybg'>
   <view class='w_700 auto'>
-    <view class='pad_b15 pad_t15 top_20 whitebg radius_10 flex_c_c'>
+    <view class='pad_b15 pad_t15 top_30 whitebg radius_10 flex_c_c'>
       <view class='flex_1 center bo_right font_28 color_3e flex_c_c shopPricedownH' data-index='0' bindtap="onChangeShowState">{{filter1}}</view>
       <view class='flex_1 center color_3e font_28 flex_c_c shopPricedownH' data-index='1' bindtap="onChangeShowState">{{filter2}}</view>
     </view>
+
     <view class='w_640 pad30 whitebg radius_10 top_20 locationP'>
       <view class='font_32 color_3e line68'>昆明南众软件开发有限公司 </view>
       <view class='font_32 color_3e line68'>云牛在线APP开发</view>
@@ -19,7 +20,7 @@
     </view>
 
     <view class='w_640 pad30 whitebg radius_10 top_20 locationP'>
-      <view class='font_32 color_3e line68'>昆明南众软件开发有限公司 </view>
+      <view class='font_32 color_3e  line68'>昆明南众软件开发有限公司 </view>
       <view class='font_32 color_3e line68'>云牛在线APP开发</view>
       <view class='font_32 color_3e line68 pad_b15 flex_c_bet'>
         <view>杨超 <text class='left_50'>(12345678910)</text></view>
@@ -45,13 +46,13 @@
     </view>
     <view class='' wx:if='{{tabIndex=="0"}}'>
       <block wx:for='{{filterList.list}}' wx:key='{{index}}' >
-        <view class='w_700 auto pad_t20  pad_b20 bor_bot' bindtap='choise' data-index='{{index}}'>{{item}}</view>
+        <view class='w_700 auto pad_t20  pad_b20 bor_bot font_26 color_0' bindtap='choise' data-index='{{index}}'>{{item}}</view>
       </block>
     </view>
 
     <view class='' wx:else>
       <block wx:for='{{filterScend.list}}' wx:key='{{index}}' >
-        <view class='w_700 auto pad_t20  pad_b20 bor_bot' bindtap='choise' data-index='{{index}}'>{{item}}</view>
+        <view class='w_700 auto pad_t20 font_26 color_0  pad_b20 bor_bot' bindtap='choise' data-index='{{index}}'>{{item}}</view>
       </block>
     </view>
   </view> 

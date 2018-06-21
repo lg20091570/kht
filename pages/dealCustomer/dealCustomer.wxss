@@ -1,1 +1,38 @@
 /* pages/dealCustomer/dealCustomer.wxss */
+/* pages/subordinateCustomer/subordinateCustomer.wxss */
+.state{width: 170rpx;height: 70rpx;font-size:30rpx;position: absolute;right: 0;top:0;display: flex;align-items: center;justify-content: center;border-bottom-left-radius: 10rpx;border-top-right-radius: 10rpx;}
+
+/* 导航向下角标 */
+.shopPricedownH:after {
+    content: "";
+    width:0;
+    height: 0;
+    border-left:12rpx solid transparent;
+    border-right: 12rpx solid transparent;
+    border-top:12rpx solid #d9d9d9;
+    margin-left: 20rpx;
+
+  }
+
+/* 弹层背景 */
+.Mask_bg{
+   position: fixed;
+    width: 100%;
+    height: 100%;
+    top:20rpx;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9;
+    }
+
+/* 弹窗内容 */
+.filterBox{
+  z-index: 99;
+  position: fixed;
+  top: 0rpx;
+  left: 0;
+  background: #fff;
+
+  width:100%;
+  margin-top: 20rpx;
+  }
