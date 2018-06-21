@@ -1,0 +1,25 @@
+/* pages/enterpriseRevision/enterpriseRevision.wxss */
+.accountbox{margin:30rpx 20rpx 28rpx 28rpx;}
+.section{display: flex;
+         justify-content:flex-start;
+         align-items:center;
+         font-size: 32rpx;
+         width: 655rpx;
+         background: #fff;
+         border-radius: 10rpx;
+         padding:30rpx 20rpx;
+         }
+.uploadbox{
+         width: 695rpx;
+         height: 506rpx;
+         border-radius: 10rpx;
+         background: #fff;
+         margin-top: 20rpx;
+         margin-bottom: 20rpx;
+         display: flex;
+         flex-direction:column;
+         justify-content:center;
+         align-items:center;
+
+
+}

@@ -1,3 +1,8 @@
 /* pages/accountAllocation/accountAllocation.wxss */
 .accountbox{margin:30rpx 20rpx 28rpx 28rpx;}
-.boxdetail{width: 695rpx;height: 360rpx;background: #fff;border-radius: 10rpx;}
+.boxdetail{width: 655rpx;background: #fff;border-radius: 10rpx;padding-left:20rpx;padding-right:20rpx;}
+.boxdetail input{width: 655rpx;}
+.section{display: flex;justify-content:flex-start;font-size: 32rpx;padding:30rpx 0;border-bottom: 1rpx solid #e6e6e6;}
+.picker {
+  color: #000;
+}
