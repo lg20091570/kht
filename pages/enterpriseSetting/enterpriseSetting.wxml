@@ -1,0 +1,4 @@
+<!--pages/enterpriseSetting/enterpriseSetting.wxml-->
+<scroll-view scroll_y class='graybg'>
+   <view ></view>
+</scroll-view>

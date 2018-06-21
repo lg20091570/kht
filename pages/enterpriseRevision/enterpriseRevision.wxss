@@ -1,5 +1,4 @@
 /* pages/enterpriseRevision/enterpriseRevision.wxss */
-.accountbox{margin:30rpx 20rpx 28rpx 28rpx;}
 .section{display: flex;
          justify-content:flex-start;
          align-items:center;

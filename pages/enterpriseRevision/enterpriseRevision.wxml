@@ -2,7 +2,7 @@
  <scroll-view scroll-y class='graybg'>
 
  <!-- 已上传 -->
-  <!-- <view class='accountbox'>
+  <!-- <view class='w_700 auto'>
   <input class=" pad_b30 pad_t30 top_30 section" type='text' placeholder="请输入手机号" placeholder-style='color:#e6e6e6'/> 
   <view class="uploadbox">
     <image style="width:292rpx;height:292rpx;border:1rpx solid #000"></image>
@@ -15,7 +15,7 @@
 
 
  <!-- 未上传 -->
- <view class='accountbox'>
+ <view class='w_700 auto'>
   <input class=" pad_b30 pad_t30 top_30 section" type='text' placeholder="请输入企业名称" placeholder-style='color:#b3b3b3'/> 
   <view class="uploadbox">
     <image style="width:292rpx;height:292rpx;border:1rpx solid #000"></image>

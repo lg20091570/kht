@@ -1,7 +1,7 @@
 /**app.wxss**/
 .v_m{ vertical-align: middle }
 .bor_r{border-radius: 10rpx;}
-
+.auto{margin: 0 auto;}
 
 .locationP{position: relative;}
 /* 层级 */
@@ -202,6 +202,7 @@
 .flex_1{ flex:1; }
 .w_c100{ width: 100%; }
 
+
 .boxsizing{ box-sizing: border-box; -webkit-box-sizing: border-box;}
 
 /* 向右的箭头 */
@@ -256,6 +257,8 @@
 .w_22{width: 22rpx;}
 .w_20{width: 20rpx;}
 /* 高 */
+
+.h_1080{height: 1080rpx;}
 .h_506{height: 506rpx;}
 .h_500{height: 500rpx;}
 .h_498{height: 498rpx;}

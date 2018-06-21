@@ -1,0 +1,22 @@
+/* pages/addingDepartment/addingDepartment.wxss */
+.section{padding:30rpx;
+         display: flex;
+         justify-content:flex-start;
+         align-items:center;
+         background: #fff;
+         font-size: 32rpx;
+         color:#333333;
+         border-radius: 10rpx;
+         }
+
+.sectionlist{padding:30rpx;
+             display: flex;
+             justify-content:space-between;
+             align-items:center;
+             background: #fff;
+             font-size: 32rpx;
+             color:#333333;
+             border-radius: 10rpx;
+             border-bottom:1rpx solid #3e4f5c;
+            
+}

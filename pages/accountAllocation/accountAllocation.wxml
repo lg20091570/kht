@@ -1,6 +1,6 @@
 <!--pages/accountAllocation/accountAllocation.wxml-->
 <scroll-view scroll-y class='graybg'>
- <view class='accountbox'>
+ <view class='w_700 auto'>
   <view class='boxdetail'>
     <view class="section">
       <input type='text' placeholder="请填写员工姓名" placeholder-style='color:#999'/>

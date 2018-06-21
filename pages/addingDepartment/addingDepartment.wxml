@@ -1,0 +1,22 @@
+<!--pages/addingDepartment/addingDepartment.wxml-->
+<scroll-view scroll-y class='graybg'>
+  <view class='w_700 auto'>
+    <view class='section bottom_20'>
+      <image class='w_35 h_35 right_10' src='../../image/plus.png'></image>
+      <text>添加企业部门</text>
+    </view>
+    <view class='sectionlist'>
+      <text>销售部</text>
+      <image class='w_35 h_35 right_10' src='../../image/ellipsis.png'></image>
+    </view>
+    <view class='sectionlist'>
+      <text>开发部</text>
+      <image class='w_35 h_35 right_10' src='../../image/ellipsis.png'></image>
+    </view>
+    <view class='sectionlist'>
+      <text>运营部</text>
+      <image class='w_35 h_35 right_10' src='../../image/ellipsis.png'></image>
+    </view>
+  </view>
+
+</scroll-view>
