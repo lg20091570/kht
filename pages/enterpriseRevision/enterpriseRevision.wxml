@@ -1,0 +1,31 @@
+<!--pages/enterpriseRevision/enterpriseRevision.wxml-->
+ <scroll-view scroll-y class='graybg'>
+
+ <!-- 已上传 -->
+  <!-- <view class='accountbox'>
+  <input class=" pad_b30 pad_t30 top_30 section" type='text' placeholder="请输入手机号" placeholder-style='color:#e6e6e6'/> 
+  <view class="uploadbox">
+    <image style="width:292rpx;height:292rpx;border:1rpx solid #000"></image>
+    <text class='font_32 col_b3 top_70'>企业logo</text>
+  </view>
+  <view class="flex_c_c whitebg radius_10 pad_t30 pad_b30 font_32 w_695 Color_aa8">
+    保存
+  </view>
+ </view>  -->
+
+
+ <!-- 未上传 -->
+ <view class='accountbox'>
+  <input class=" pad_b30 pad_t30 top_30 section" type='text' placeholder="请输入企业名称" placeholder-style='color:#b3b3b3'/> 
+  <view class="uploadbox">
+    <image style="width:292rpx;height:292rpx;border:1rpx solid #000"></image>
+    <text class='font_32 col_b3 top_70'>请上传企业logo</text>
+  </view>
+  <view class="flex_c_c whitebg radius_10 pad_t30 pad_b30 font_32 w_695 Color_aa8">
+    保存,下一步
+  </view>
+</view>  
+
+
+
+</scroll-view> 

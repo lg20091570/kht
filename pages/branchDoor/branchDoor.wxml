@@ -1,0 +1,10 @@
+<!--pages/branchDoor/branchDoor.wxml-->
+<scroll-view scroll-y class='selDeparbox graybg'>
+  <view  class="selDepar" style="{{index===3?'margin-top: 20rpx':''}}" wx:for="{{departmentList}}" wx:key="{{index}}" data-index="{{index}}" bindtap='radioChange'>
+    <text class="font_32">{{item.name}}</text>
+    <radio color="#146aa8" name='department' value='{{index}}' data-index="{{index}}" checked="{{item.checked}}"/>
+  </view>
+
+
+</scroll-view>
+

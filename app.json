@@ -1,12 +1,29 @@
 {
   "pages":[
-    "pages/retrievePassword/retrievePassword",
-    "pages/modifyPassword/modifyPassword",
-    "pages/accountAssignment/accountAssignment",
-    "pages/addCustomer/addCustomer",
-    "pages/subordinateCustomer/subordinateCustomer",
+    "pages/branchDoor/branchDoor",
     "pages/accountAllocation/accountAllocation",
     "pages/visitCustomerstate/visitCustomerstate",
+    
+   
+    
+    "pages/enterpriseRevision/enterpriseRevision",
+    "pages/addCustomer/addCustomer",
+    "pages/accountAssignment/accountAssignment",
+   
+    "pages/subordinateCustomer/subordinateCustomer",
+
+   
+ 
+    "pages/modifyPassword/modifyPassword",
+    
+    
+    "pages/retrievePassword/retrievePassword",
+   
+  
+    
+   
+    
+   
     "pages/visitCustomerfillin/visitCustomerfillin",
   
     "pages/selDepartment/selDepartment",

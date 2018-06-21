@@ -11,14 +11,33 @@
     <view class="section">
       <input type='password' placeholder="请填写密码" placeholder-style='color:#999'/>
     </view>
-    <view class="section ">
-      <input  placeholder="选择员工组织" placeholder-style='color:#999'/>
-      <view class=''></view>
+
+
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class='flex_c_bet  pad_t30 pad_b30'>
+          <view class='picker flex_1 pad_r30 flex_c_bet font_32'>
+            <text class='color_9'>选择员工组织</text> 
+            <text class='font_32'>{{array[index]}}</text>
+         </view>
+        <view class=''><image class='w_20 h_30' src='../../image/rightJtou.png' /></view>
+      </view>
+    </picker> 
+
+  </view>
+
+
+
+  <picker bindchange="dealPickerChange" value="{{page}}" range="{{deal}}" >
+    <view class='pad_t30 pad_b30 whitebg flex_c_bet radius_10 pad_l20 pad_r20 w_655 top_20 '>
+      <view class='picker font_32 flex_1 flex_c_bet pad_r30'>
+        <text class='color_9'>请设置用户权限</text> 
+        <text class='font_32'>{{deal[page]}}</text>
+      </view>
+      <view class=''><image class='w_20 h_30' src='../../image/rightJtou.png' /></view>
     </view>
-  </view>
-  <view class="boxdetail pad_b30 pad_t30 top_20 font_32">
-    <input  placeholder="请设置用户权限" placeholder-style='color:#999'/>
-  </view>
+  </picker> 
+
+
    <view class="flex_c_c pad_b30 pad_t30 top_50 colorF_14 boxdetail">
     完成
   </view>

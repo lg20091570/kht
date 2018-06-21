@@ -92,6 +92,7 @@
 .color_14{color: #1469a9;}
 .colorF_14{color: #1469a9;font-size: 34rpx;}
 .Color_aa8{Color: #146aa8;}
+.col_b3{color:#b3b3b3;}
 
 
 /* bgColor */
@@ -167,6 +168,7 @@
 .bottom_20{margin-bottom: 20rpx;}
 .right_30{margin-right: 30rpx;}
 .right_10{margin-right: 10rpx;}
+.top_70{ margin-top: 70rpx; }
 .top_50{ margin-top: 50rpx; }
 .top_30{ margin-top: 30rpx; }
 .top_60{ margin-top: 60rpx; }
@@ -230,8 +232,10 @@
 
 .w_750{width: 750rpx;}
 .w_700{width: 700rpx;}
+.w_695{width: 695rpx;}
 .w_28{width: 28rpx;}
 .w_65{width: 65rpx;}
+.w_655{width: 655rpx;}
 .w_640{width: 640rpx;}
 .w_680{width: 680rpx;}
 .w_35{width: 35rpx;}
@@ -252,6 +256,7 @@
 .w_22{width: 22rpx;}
 .w_20{width: 20rpx;}
 /* 高 */
+.h_506{height: 506rpx;}
 .h_500{height: 500rpx;}
 .h_498{height: 498rpx;}
 .h_360{height: 360rpx;}
