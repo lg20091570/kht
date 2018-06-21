@@ -162,6 +162,7 @@
 .bottom_20{margin-bottom: 20rpx;}
 .right_30{margin-right: 30rpx;}
 .right_10{margin-right: 10rpx;}
+.top_50{ margin-top: 50rpx; }
 .top_30{ margin-top: 30rpx; }
 .top_20{ margin-top: 20rpx; }
 .top_5{ margin-top: 5rpx; }
