@@ -3,10 +3,6 @@
     "pages/addingDepartment/addingDepartment",
     "pages/enterpriseSetting/enterpriseSetting",
     "pages/addCompletion/addCompletion",
-    
-    
-  
-    
     "pages/subordinateCustomer/subordinateCustomer",
     "pages/businessManagement/businessManagement",
     "pages/modifyPassword/modifyPassword",
@@ -15,8 +11,6 @@
     "pages/addCustomerfillin/addCustomerfillin",
     "pages/addCustomer/addCustomer",
      "pages/customerList/ customerList",
-    "pages/subordinateCustomer/subordinateCustomer",
-    "pages/index12/index12",
     "pages/index/index",
     "pages/password/password",
     "pages/login/login",
@@ -27,14 +21,10 @@
     "pages/branchDoor/branchDoor",
     "pages/accountAllocation/accountAllocation",
     "pages/visitCustomerstate/visitCustomerstate",
-    "pages/enterpriseRevision/enterpriseRevision",
     "pages/accountAssignment/accountAssignment",
-    "pages/modifyPassword/modifyPassword",
     "pages/visitCustomerfillin/visitCustomerfillin",
-    "pages/addCustomerfillin/addCustomerfillin",
     "pages/chioceCustomer/chioceCustomer",
     "pages/changeAccount/changeAccount",
-    "pages/businessManagement/businessManagement",
     "pages/myCard/myCard",
     "pages/visitCustomer/visitCustomer"
 
