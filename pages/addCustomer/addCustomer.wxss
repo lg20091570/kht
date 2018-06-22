@@ -1,6 +1,6 @@
 /* pages/addCustomer/addCustomer.wxss */
-.indexBox{margin: 30rpx auto 50rpx auto}
-.atherText{display: flex;align-items: flex-start;justify-content: flex-start;} 
+.indexBox{margin: 30rpx auto 50rpx auto;padding-bottom: 30rpx;}
+.atherText{display: flex;align-items:flex-start;justify-content: flex-start;} 
 .areas{  
   height:135rpx;  
    font-size: 34rpx;  

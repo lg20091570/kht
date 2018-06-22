@@ -1,41 +1,13 @@
-// pages/customerList/ customerList.js
-var city_list = require('./city.js');
-const app = getApp()
+// pages/password/password.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    cityList: city_list.city,
-    isShowLayer: false,
-    chooseIndex: 0,
-    len: [],
-    code: null
-    
+  
   },
-  // 侧栏
-  getCurrentCode(e) {
-    var index = e.target.dataset.index, sum = 0, self = this;
 
-    for (var j = 0; j < index; j++) {
-      sum += this.data.len[j];
-    }
-
-    this.setData({
-      code: e.target.dataset.code,
-      scrollTop: sum * 40,
-      chooseIndex: index,
-      isShowLayer: true
-    });
-
-    setTimeout(() => {
-      self.setData({ isShowLayer: false })
-    }, 500);
-  },
-  getChooseCity(e) {
-    this.setData({ chooseCity: e.target.dataset.city });
-  },
   /**
    * 生命周期函数--监听页面加载
    */

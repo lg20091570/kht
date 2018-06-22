@@ -8,7 +8,7 @@
     </view>
 
     <view class='h_700 overflowScor'>
-      <view class='w_580 bottom_20 radius_10 lightgrey pad_t30 pad_b40 pad_l30 pad_r30 pos_re' wx:for="arr in 3">
+      <view class='w_580 bottom_20 radius_10 lightgrey pad_t30 pad_b40 pad_l30 pad_r30 pos_re'>
         <view class='shopPricedownH positionWbox flex_c_c'></view>
           <view class='flex_c_bet'>
             <text class='font_22 color_b2'>2017-10-10</text>

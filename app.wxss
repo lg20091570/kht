@@ -233,7 +233,7 @@
 .bor_top{border-top: 1rpx solid #ebebeb;}
 .bor_bot{border-bottom: 1rpx solid #e6e6e6;}
 .height{height: 100%}
-.luoborder{border: 1px solid #1469a9;color: #1469a9; font-size: 26rpx;width: 104rpx;height: 45rpx;align-items: center;justify-content: center;display: flex;border-radius: 10rpx; }
+.luoborder{border: 1px solid #1469a9;color: #1469a9; font-size: 26rpx;width: 104rpx;height: 45rpx;align-items: center;justify-content: center;display: flex;border-radius: 10rpx;margin-right: 20rpx;}
 /*宽高 */
 /* 宽 */
 .w_790{width: 790rpx;}

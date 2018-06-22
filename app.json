@@ -1,55 +1,36 @@
 {
   "pages":[
+"pages/customerList/ customerList",
+        "pages/subordinateCustomer/subordinateCustomer",
+    "pages/index12/index12",
+
+    "pages/index/index",
+    "pages/password/password",
     "pages/login/login",
     "pages/retrievePassword/retrievePassword",
     "pages/register/register",
     "pages/selDepartment/selDepartment",
-    "pages/index/index",
-    "pages/password/password",
+    
+    
     "pages/visitRecord/visitRecord",
-
     "pages/dealCustomer/dealCustomer",
-
-    "pages/subordinateCustomer/subordinateCustomer",
+   
     "pages/branchDoor/branchDoor",
     "pages/accountAllocation/accountAllocation",
     "pages/visitCustomerstate/visitCustomerstate",
-
-
-
     "pages/enterpriseRevision/enterpriseRevision",
     "pages/addCustomer/addCustomer",
     "pages/accountAssignment/accountAssignment",
-
-    "pages/subordinateCustomer/subordinateCustomer",
-
-
-
     "pages/modifyPassword/modifyPassword",
-
-
-    "pages/retrievePassword/retrievePassword",
-
-
-
-
-
-
     "pages/visitCustomerfillin/visitCustomerfillin",
-
     "pages/addCustomerfillin/addCustomerfillin",
     "pages/chioceCustomer/chioceCustomer",
-
     "pages/changeAccount/changeAccount",
-
-    "pages/accountAssignment/accountAssignment",
-
-
+  
     "pages/businessManagement/businessManagement",
     "pages/myCard/myCard",
-    "pages/visitCustomer/visitCustomer",
-    "pages/dealCustomer/dealCustomer",
-    "pages/customerList/ customerList"
+    "pages/visitCustomer/visitCustomer"
+   
     
     
   ],
