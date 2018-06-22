@@ -1,38 +1,40 @@
 {
   "pages":[
-"pages/customerList/ customerList",
-        "pages/subordinateCustomer/subordinateCustomer",
+    "pages/addCompletion/addCompletion",
+    "pages/enterpriseSetting/enterpriseSetting",
+    "pages/addingDepartment/addingDepartment",
+    "pages/subordinateCustomer/subordinateCustomer",
+    "pages/businessManagement/businessManagement",
+    "pages/modifyPassword/modifyPassword",
+    "pages/retrievePassword/retrievePassword",
+    "pages/enterpriseRevision/enterpriseRevision",
+    "pages/addCustomerfillin/addCustomerfillin",
+    "pages/addCustomer/addCustomer",
+     "pages/customerList/ customerList",
+    "pages/subordinateCustomer/subordinateCustomer",
     "pages/index12/index12",
-
     "pages/index/index",
     "pages/password/password",
     "pages/login/login",
-    "pages/retrievePassword/retrievePassword",
     "pages/register/register",
     "pages/selDepartment/selDepartment",
-    
-    
     "pages/visitRecord/visitRecord",
     "pages/dealCustomer/dealCustomer",
-   
     "pages/branchDoor/branchDoor",
     "pages/accountAllocation/accountAllocation",
     "pages/visitCustomerstate/visitCustomerstate",
     "pages/enterpriseRevision/enterpriseRevision",
-    "pages/addCustomer/addCustomer",
     "pages/accountAssignment/accountAssignment",
     "pages/modifyPassword/modifyPassword",
     "pages/visitCustomerfillin/visitCustomerfillin",
     "pages/addCustomerfillin/addCustomerfillin",
     "pages/chioceCustomer/chioceCustomer",
     "pages/changeAccount/changeAccount",
-  
     "pages/businessManagement/businessManagement",
     "pages/myCard/myCard",
     "pages/visitCustomer/visitCustomer"
-   
-    
-    
+
+
   ],
   "window":{
     "backgroundTextStyle":"light",

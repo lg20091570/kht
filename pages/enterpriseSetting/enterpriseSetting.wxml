@@ -1,0 +1,21 @@
+<!--pages/enterpriseSetting/enterpriseSetting.wxml-->
+<scroll-view scroll_y class='graybg'>
+   <view class='w_700 auto'>
+      <view class='section bottom_20'>
+        <image class='w_35 h_35 right_10' src='../../image/plus.png'></image>
+        <text>添加企业</text>
+      </view>
+      <view class='sectionlist'>
+        <text>昆明南众软件开发有限公司</text>
+        <image class='w_35 h_35 right_10' src='../../image/ellipsis.png'></image>
+      </view>
+      <view class='sectionlist'>
+        <text>昆明南众软件开发有限公司</text>
+        <image class='w_35 h_35 right_10' src='../../image/ellipsis.png'></image>
+      </view>
+      <view class='sectionlist'>
+        <text>昆明南众软件开发有限公司</text>
+        <image class='w_35 h_35 right_10' src='../../image/ellipsis.png'></image>
+      </view>
+   </view>
+</scroll-view>

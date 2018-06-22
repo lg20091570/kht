@@ -1,1 +1,10 @@
 /* pages/businessManagement/businessManagement.wxss */
+.managebox{width:640rpx;
+           height:100rpx;
+           background: #fff;
+           border-radius: 10rpx;
+           color:#6320d4;
+           position: absolute;
+           bottom:140rpx;
+           left:50rpx;
+           }

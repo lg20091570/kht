@@ -1,2 +1,8 @@
 <!--pages/businessManagement/businessManagement.wxml-->
-<text>pages/businessManagement/businessManagement.wxml</text>
+<scroll-view scroll-y class='graybg '>
+  <view class='w_700 auto pad_r20 pad_l20 h_1080 pos_re'>
+    <image class='w_c100 height' src='../../image/enterprisebg.png' />
+    <navigator  class='managebox flex_c_c'>添加企业</navigator>
+  </view>
+  
+</scroll-view>
