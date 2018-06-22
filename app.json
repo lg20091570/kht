@@ -1,6 +1,7 @@
 {
   "pages":[
-    
+    "pages/addCompletion/addCompletion",
+    "pages/enterpriseSetting/enterpriseSetting",
     "pages/addingDepartment/addingDepartment",
     "pages/subordinateCustomer/subordinateCustomer",
     "pages/businessManagement/businessManagement",
@@ -9,7 +10,7 @@
     "pages/enterpriseRevision/enterpriseRevision",
     "pages/addCustomerfillin/addCustomerfillin",
 
-    "pages/enterpriseSetting/enterpriseSetting",
+   
 
     "pages/addCustomer/addCustomer",
 

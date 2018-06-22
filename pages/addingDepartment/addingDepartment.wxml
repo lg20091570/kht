@@ -1,11 +1,11 @@
 <!--pages/addingDepartment/addingDepartment.wxml-->
 <scroll-view scroll-y class='graybg'>
-  <view class='w_700 auto'>
-    <view class='section bottom_20'>
+  <view class='w_700 auto pos_re '>
+    <view class='section bottom_20' bindtap="showDialogBtn">
       <image class='w_35 h_35 right_10' src='../../image/plus.png'></image>
       <text>添加企业部门</text>
     </view>
-    <view class='sectionlist'>
+    <view class='sectionlist' bindtap="optionlist">
       <text>销售部</text>
       <image class='w_35 h_35 right_10' src='../../image/ellipsis.png'></image>
     </view>
@@ -17,10 +17,34 @@
       <text>运营部</text>
       <image class='w_35 h_35 right_10' src='../../image/ellipsis.png'></image>
     </view>
+     <view class='lowest top_605' wx:if="{{lowest}}">
+    完成
+    </view>
+    <!-- 操作选项 -->
+    <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{optionlist}}"></view>
+    <view class='optionlist' wx:if="{{optionlist}}">
+      <view class='option bottom_20'>删除</view>
+      <view class='option'>取消</view>
+    </view> 
   </view>
 
-  <modal hidden="{{hidden}}" title="这里是title" confirm-text="自定义确定按钮" cancel-text="自定义取消按钮" bindcancel="cancel" bindconfirm="confirm" no-cancel="{{nocancel}}">
-    <input placeholder='情书他'/>
-</modal>
 
+  <!-- 弹窗 -->
+  <view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+    <view class="modal-dialog" wx:if="{{showModal}}">
+      <view class="modal-title">添加部门</view>
+      <view class='modal-text'>请为新部门输入名称</view>
+      <view class="modal-content">
+        <view class="modal-input">
+          <input placeholder-class="input-holder" type="text" maxlength="10" bindinput="inputChange" class="input" placeholder=""></input>
+        </view>
+      </view>
+      <view class="modal-footer">
+        <view class="btn-cancel" bindtap="onCancel" data-status="cancel">取消</view>
+        <view class="btn-confirm" bindtap="onConfirm" data-status="confirm">确定</view>
+      </view>
+    </view>
+
+
+  
 </scroll-view>
