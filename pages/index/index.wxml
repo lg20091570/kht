@@ -60,7 +60,7 @@
           <image class='w_84 h_84' src='../../image/indexTopIco5.png' />
           <text class='font_26 color_3e pad_t30'>企业管理</text>
         </navigator>
-        <navigator url='/pages/accountAssignment/accountAssignment' class='flex_1 flex_c_c_col bor_right pad40'>
+        <navigator url='/pages/accountAllocation/accountAllocation' class='flex_1 flex_c_c_col bor_right pad40'>
           <image class='w_84 h_84' src='../../image/indexTopIco6.png' />
           <text class='font_26 color_3e pad_t30'>账号分配</text>
         </navigator>

@@ -1,6 +1,5 @@
-.name{
+.nameCompany{
   padding: 30rpx 20rpx;
-  width: 460rpx;
   height:40rpx;
   font-size: 36rpx;
   background: #fff;

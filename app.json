@@ -1,17 +1,29 @@
 {
   "pages":[
+    "pages/addCompletion/addCompletion",
+    "pages/index/index",
     "pages/addingDepartment/addingDepartment",
     "pages/enterpriseSetting/enterpriseSetting",
-    "pages/addCompletion/addCompletion",
-    "pages/subordinateCustomer/subordinateCustomer",
+   
+     
+    
+  
+    
+
     "pages/businessManagement/businessManagement",
+    
+   
+    
+   
+    "pages/subordinateCustomer/subordinateCustomer",
+  
     "pages/modifyPassword/modifyPassword",
     "pages/retrievePassword/retrievePassword",
     "pages/enterpriseRevision/enterpriseRevision",
     "pages/addCustomerfillin/addCustomerfillin",
     "pages/addCustomer/addCustomer",
      "pages/customerList/ customerList",
-    "pages/index/index",
+
     "pages/password/password",
     "pages/login/login",
     "pages/register/register",
