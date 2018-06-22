@@ -28,16 +28,23 @@
 
       })
      
-     
-    
       },
 
+      hideoption:function(){
+        this.setData({
+          optionlist: false
+        })
+        this.setData({
+          lowest: true,
+        })
+      },
+     
 
       /**
        * 弹出框蒙层截断touchmove事件
        */
-      preventTouchMove: function () {
-      },
+      // preventTouchMove: function () {
+      // },
       /**
        * 隐藏模态对话框
        */

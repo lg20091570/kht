@@ -1,8 +1,12 @@
 {
   "pages":[
-    "pages/addCompletion/addCompletion",
-    "pages/enterpriseSetting/enterpriseSetting",
     "pages/addingDepartment/addingDepartment",
+    "pages/enterpriseSetting/enterpriseSetting",
+    "pages/addCompletion/addCompletion",
+    
+    
+  
+    
     "pages/subordinateCustomer/subordinateCustomer",
     "pages/businessManagement/businessManagement",
     "pages/modifyPassword/modifyPassword",

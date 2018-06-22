@@ -29,8 +29,9 @@
         color:#136aa8;
         border-radius: 10rpx;
         border-bottom:1rpx solid #3e4f5c;
-       
-
+        position: fixed;
+        bottom:40rpx;
+        width: 640rpx;
 }
 
 /* 弹窗 */
@@ -143,13 +144,16 @@ input-holder {
   background: #000;
   opacity: 0.5;
   overflow: hidden;
-  z-index: 9000;
+  z-index: 99;
   color: #fff; 
 }
 .optionlist{
   width: 700rpx;
   margin: 0 auto;
-  margin-top: 460rpx;
+  z-index: 99;
+  position: fixed;
+  bottom: 40rpx;
+  left: 25rpx;
 }
 .option{
   padding:30rpx;

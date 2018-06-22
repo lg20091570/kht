@@ -245,6 +245,7 @@
 .w_700{width: 700rpx;}
 .w_695{width: 695rpx;}
 .w_540{width: 540rpx;}
+.w_500{width: 500rpx;}
 .w_475{width: 475rpx;}
 .w_28{width: 28rpx;}
 .w_65{width: 65rpx;}
@@ -261,6 +262,7 @@
 .w_175{width: 175rpx;}
 .w_280{width: 280rpx;}
 .w_140{width: 140rpx;}
+.w_160{width: 160rpx;}
 .w_270{width: 270rpx;}
 .w_245{width: 245rpx;}
 .w_50{width: 50rpx;}
@@ -288,6 +290,7 @@
 .h_107{height: 107rpx;}
 .h_120{height: 120rpx;}
 .h_125{height: 125rpx;}
+.h_100{height: 100rpx;}
 .h_84{height: 84rpx;}
 .h_65{height: 65rpx;}
 .h_50{height: 50rpx;}

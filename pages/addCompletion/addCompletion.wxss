@@ -1,0 +1,17 @@
+.name{
+  padding: 30rpx 20rpx;
+  width: 460rpx;
+  height:40rpx;
+  font-size: 36rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  display: flex;
+  align-content:space-between;
+  align-items:center;
+
+}
+
+.nameinput{
+  width: 400rpx;
+  height: 40rpx;
+}

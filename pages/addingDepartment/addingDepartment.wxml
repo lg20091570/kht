@@ -23,8 +23,8 @@
     <!-- 操作选项 -->
     <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{optionlist}}"></view>
     <view class='optionlist' wx:if="{{optionlist}}">
-      <view class='option bottom_20'>删除</view>
-      <view class='option'>取消</view>
+      <view class='option bottom_20' bindtap="hideoption">删除</view>
+      <view class='option' bindtap="hideoption">取消</view>
     </view> 
   </view>
 

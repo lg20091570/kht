@@ -1,0 +1,9 @@
+<scroll-view scroll-y class='graybg'>
+  <view class="w_700 auto">
+    <view class='name'>
+      <input class='nameinput' type='text'/>昆明南众软件
+      <image class="w_35 h_35" src='../../image/rightJtou.png'></image>
+    </view>
+    <view class='w_160 h_100'></view>
+  </view>
+</scroll-view>">
