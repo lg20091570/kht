@@ -1,6 +1,6 @@
 <!--pages/subordinateCustomer/subordinateCustomer.wxml-->
 <scroll-view scroll-y class='graybg'>
-  <view class='w_700 auto'>
+  <view class='w_700 auto locationP'>
     <view class='pad_b15 pad_t15 top_30 whitebg radius_10 flex_c_c'>
       <view class='flex_1 center bo_right font_28 color_3e flex_c_c shopPricedownH' data-index='0' bindtap="onChangeShowState">{{filter1}}</view>
       <view class='flex_1 center color_3e font_28 flex_c_c shopPricedownH' data-index='1' bindtap="onChangeShowState">{{filter2}}</view>
@@ -33,6 +33,25 @@
     </view>
   </view>
 </scroll-view>
+  <!-- 侧栏索引 -->
+  <view class="right-nav">
+    <view bindtap="getCurrentCode" class="{{chooseIndex == index ? '.city-list-active' : ''}} cityLiist" 
+    wx:for="{{cityList}}" wx:key="code"  data-code="{{item.code}}" data-index="{{index}}">
+      {{item.code}}
+    </view>
+  </view>
+ 
+  <view class="city-layer {{isShowLayer ? '' : 'layer-hide'}}">
+    {{code}}
+  </view>  
+
+
+
+
+
+
+
+
 <!-- 弹层背景 -->
  <view class='Mask_bg'  wx:if="{{filterShow}}" bindtap="onChangeShowState" ></view>
  <!-- 弹层背景End -->
@@ -56,7 +75,6 @@
       </block>
     </view>
   </view> 
-
   <!-- 弹层 End --> 
 
 

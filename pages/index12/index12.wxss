@@ -1,18 +1,11 @@
-/* pages/ customerList/ customerList.wxss */
-
-/* 搜索+banner */
-.searchBox{ width:700rpx; height: 90rpx;margin:30rpx auto 0 auto; box-shadow: 0 0 12rpx rgba(120, 120, 120, 0.2); background: #fff; border-radius: 10rpx; }
-.searchInput{width: 100%; height: 90rpx; font-size: 28rpx;text-align: center;}
-.searchBtn{ width: 100rpx; height: 90rpx; }
-/* 搜索ENd */
-
+/* pages/indexed/indexed.wxss */
 /* 侧栏 */
 .right-nav{
   color: #000;
   text-align: center;
   position: fixed;
-  top:190rpx;
-  right:25rpx;
+  top:50rpx;
+  right: 0;
   z-index: 9;
 
   height: 418rpx;
@@ -29,11 +22,8 @@
   
 }
 .cityLiist{
-  display: flex;
-  align-items: center;
-justify-content: center;
-width:32rpx;
-height: 32rpx;
+width: 30rpx;
+height: 30rpx;
 margin: 15rpx 0;
   font-size: 20rpx;
   font-weight: bold;
