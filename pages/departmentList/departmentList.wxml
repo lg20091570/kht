@@ -71,9 +71,13 @@
           <text class='font_26 color_9'>总经理（12345678910）</text>
         </view>
       </view>
-      
-     
     </view>
+
+
+
+    
+
+    
 
     <!-- 设置 -->
     <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{optionlist}}"></view>
