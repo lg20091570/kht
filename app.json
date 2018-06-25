@@ -1,8 +1,13 @@
 {
   "pages":[
+    "pages/departmentList/departmentList",
+    "pages/addingDepartment/addingDepartment",
+        "pages/businessManagement/businessManagement",
+    "pages/subordinateCustomer/subordinateCustomer",
+    
     "pages/addCompletion/addCompletion",
     "pages/index/index",
-    "pages/addingDepartment/addingDepartment",
+    
     "pages/enterpriseSetting/enterpriseSetting",
    
      
@@ -10,12 +15,12 @@
   
     
 
-    "pages/businessManagement/businessManagement",
+
     
    
     
    
-    "pages/subordinateCustomer/subordinateCustomer",
+    
   
     "pages/modifyPassword/modifyPassword",
     "pages/retrievePassword/retrievePassword",

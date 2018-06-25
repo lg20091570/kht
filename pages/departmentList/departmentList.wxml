@@ -1,0 +1,87 @@
+<!--pages/departmentList/departmentList.wxml-->
+<scroll-view scroll-y class='graybg'>
+  <view class='w_700 auto'>
+    <view class='searchBox'>
+      <image class='w_25 h_25' src='../../image/search.png'></image>
+      <input placeholder='搜索' />
+    </view>
+    <view class='finishList'>
+      <view class='finishListsub'  bindtap="optionlist">
+        <image class='w_80 h_80 right_20' src='../../image/label1.png'></image>
+        <view class='deparsub'>
+          <view class='flex_c_s'>
+            <label class='font_36'>姓名</label>
+            <image class='w_76 h_34' src='../../image/label2.png'></image>
+          </view>                  
+          <text class='font_26 color_9'>总经理（12345678910）</text>
+        </view>
+      </view>
+      <view class='finishListsub'>
+        <image class='w_80 h_80 right_20' src='../../image/label.png'></image>
+        <view class='deparsub'>
+          <view class='flex_c_s'>
+            <label class='font_36 color_9'>姓名</label>
+            <image class='w_76 h_34' src='../../image/label3.png'></image>
+          </view>                  
+          <text class='font_26 color_9'>总经理（12345678910）</text>
+        </view>
+      </view>
+      <view class='finishListsub'>
+        <image class='w_80 h_80 right_20' src='../../image/label1.png'></image>
+        <view class='deparsub'>
+          <view class='flex_c_s'>
+            <label class='font_36'>姓名</label>
+          </view>                  
+          <text class='font_26 color_9'>总经理（12345678910）</text>
+        </view>
+      </view>
+      <view class='finishListsub'>
+        <image class='w_80 h_80 right_20' src='../../image/label1.png'></image>
+        <view class='deparsub'>
+          <view class='flex_c_s'>
+            <label class='font_36'>姓名</label>
+          </view>                  
+          <text class='font_26 color_9'>总经理（12345678910）</text>
+        </view>
+      </view>
+      <view class='finishListsub'>
+        <image class='w_80 h_80 right_20' src='../../image/label1.png'></image>
+        <view class='deparsub'>
+          <view class='flex_c_s'>
+            <label class='font_36'>姓名</label>
+          </view>                  
+          <text class='font_26 color_9'>总经理（12345678910）</text>
+        </view>
+      </view>
+      <view class='finishListsub'>
+        <image class='w_80 h_80 right_20' src='../../image/label1.png'></image>
+        <view class='deparsub'>
+          <view class='flex_c_s'>
+            <label class='font_36'>姓名</label>
+          </view>                  
+          <text class='font_26 color_9'>总经理（12345678910）</text>
+        </view>
+      </view>
+      <view class='finishListsub'>
+        <image class='w_80 h_80 right_20' src='../../image/label1.png'></image>
+        <view class='deparsub'>
+          <view class='flex_c_s'>
+            <label class='font_36'>姓名</label>
+          </view>                  
+          <text class='font_26 color_9'>总经理（12345678910）</text>
+        </view>
+      </view>
+      
+     
+    </view>
+
+    <!-- 设置 -->
+    <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{optionlist}}"></view>
+    <view class='optionlist' wx:if="{{optionlist}}">
+      <view class='option col_d70' bindtap="hideoption">禁用</view>
+      <view class='option col_01' bindtap="hideoption">修改分组</view>
+      <view class='option col_01' bindtap="hideoption">拨打电话</view>
+      <view class='option Color_aa8' bindtap="hideoption">设为管理员</view>
+    </view> 
+  </view>
+</scroll-view>

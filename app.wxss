@@ -44,6 +44,7 @@
 .clamp_4{ overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; }
 .clamp_5{ overflow : hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; }
 
+.left_410{ margin-left: 410rpx; }
 .left_50{ margin-left: 50rpx; }
 .left_20{ margin-left: 20rpx; }
 
@@ -97,6 +98,8 @@
 .colorF_14{color: #1469a9;font-size: 34rpx;}
 .Color_aa8{Color: #146aa8;}
 .col_b3{color:#b3b3b3;}
+.col_d70{color: #d70d0d;}
+.col_01{color: #010101;}
 
 
 
@@ -257,6 +260,8 @@
 .w_45{width: 45rpx;}
 .w_85{width: 85rpx;}
 .w_84{width: 84rpx;}
+.w_80{width: 80rpx;}
+.w_76{width: 76rpx;}
 .w_125{width: 125rpx;}
 .w_200{width: 200rpx;}
 .w_175{width: 175rpx;}
@@ -271,6 +276,7 @@
 .w_30{width: 30rpx;}
 .w_22{width: 22rpx;}
 .w_20{width: 20rpx;}
+.w_25{width:25rpx;}
 /* 高 */
 
 .h_1080{height: 1080rpx;}
@@ -292,13 +298,17 @@
 .h_125{height: 125rpx;}
 .h_100{height: 100rpx;}
 .h_84{height: 84rpx;}
+.h_80{height: 80rpx;}
 .h_65{height: 65rpx;}
 .h_50{height: 50rpx;}
 .h_45{height: 45rpx;}
 .h_30{height: 30rpx;}
 .h_35{height: 35rpx;}
+.h_34{height: 34rpx;}
 .h_38{height: 38rpx;}
 .h_28{height: 28rpx;}
+.h_20{height: 20rpx;}
+.h_25{height: 25rpx;}
 /* 宽高 END */
 
 /* 下属客户边角背景 */

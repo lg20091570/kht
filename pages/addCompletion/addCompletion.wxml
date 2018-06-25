@@ -1,11 +1,32 @@
 <scroll-view scroll-y class='graybg'>
   <view class="w_700 auto">
-  <view class='flex_c_bet'>
-    <view class='nameCompany flex_1'>
-      <view class='nameinput'>昆明南众软件</view>
-      <image class="w_35 h_35" src='../../image/rightJtou.png'></image>
+    <view class='flex_c_bet'>
+      <view class='nameCompany flex_1'>
+        <view class='nameinput'>昆明南众软件</view>
+        <image class="w_30 h_30" src='../../image/bottomjtou.png'></image>
+      </view>
+      <view class='w_160 h_100 left_20 btnBg radius_10 flex_c_c white'>设置</view>
     </view>
-    <view class='w_160 h_100 left_20 whitebg radius_10 flex_c_c'>设置</view>
-  </view>
+    <view class='finishList'>
+      <view class='finishListsub'>
+        销售部
+      </view>
+      <view class='finishListsub'>
+        开发部
+      </view>
+      <view class='finishListsub'>
+        运营部
+      </view>
+      <view class='finishListsub'>
+        售后部
+      </view>
+    </view>
+    <view class='manageDepar'>
+      <view class='flex_c_s'>
+        <image class='w_30 h_30 right_20' src='../../image/department.png'></image>
+        <view>部门管理</view>
+      </view>
+      <image class='w_30 h_30 left_410' src='../../image/rightJtou.png'></image>
+    </view>  
   </view>
 </scroll-view>
